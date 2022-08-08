@@ -2,7 +2,9 @@ package com.wozller.springbootdemo.service;
 
 import com.wozller.springbootdemo.model.Person;
 import com.wozller.springbootdemo.dao.PersonDao;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PersonService {
 
     private final PersonDao personDao;

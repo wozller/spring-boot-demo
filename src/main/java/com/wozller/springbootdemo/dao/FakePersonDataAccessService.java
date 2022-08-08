@@ -1,11 +1,13 @@
 package com.wozller.springbootdemo.dao;
 
 import com.wozller.springbootdemo.model.Person;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.UUID;
 
+@Repository
 public class FakePersonDataAccessService implements PersonDao {
 
     private static List<Person> DB = new ArrayList<>();
