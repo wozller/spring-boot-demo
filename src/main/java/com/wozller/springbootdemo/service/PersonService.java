@@ -1,5 +1,6 @@
 package com.wozller.springbootdemo.service;
 
+import com.wozller.springbootdemo.model.Person;
 import com.wozller.springbootdemo.dao.PersonDao;
 
 public class PersonService {
