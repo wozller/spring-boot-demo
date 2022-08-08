@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("localhost:8080/api/v1/person")
+@RequestMapping("api/v1/person")
 @RestController
 public class PersonController {
 
